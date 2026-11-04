@@ -1,0 +1,1 @@
+This project integrates WhatsApp through WasapFlow Bridge. Follow `AGENTS.md` in the repository root for all WhatsApp-related code, and read https://raw.githubusercontent.com/kobaranteguh/api/main/README.md before adding Bridge calls.

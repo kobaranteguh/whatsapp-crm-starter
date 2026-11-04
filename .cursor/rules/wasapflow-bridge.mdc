@@ -1,0 +1,12 @@
+---
+description: WasapFlow Bridge (official WhatsApp Business API) integration rules
+alwaysApply: true
+---
+
+Follow AGENTS.md in the repository root. It is the source of truth for this
+project's WhatsApp integration: secrets stay in .env, verify x-wasapflow-signature
+over the raw body, send x-waba-id + x-phone-number-id, never normalise a BSUID
+as a phone, templates outside the 24h window, do not automate on message.history.
+
+Before writing any Bridge call, read https://raw.githubusercontent.com/kobaranteguh/api/main/README.md
+(or use the "wasapflow" MCP server: https://officialapi.wasapflow.com/bridge/mcp).

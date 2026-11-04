@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-crm-starter",
+  "version": "1.0.0",
+  "description": "Minimal WhatsApp CRM on the official WhatsApp Business API (Meta Cloud API) via WasapFlow Bridge — inbox, Connect WhatsApp button, signed webhooks. Built to be extended by your AI coding tool.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["whatsapp", "whatsapp-business-api", "whatsapp-cloud-api", "crm", "meta", "embedded-signup", "coexistence", "wasapflow", "starter", "mcp"],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}
