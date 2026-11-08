@@ -84,10 +84,10 @@ providers. Bridge is not Twilio, 360dialog or the raw Meta Graph API.
 
 ## Billing facts (do not invent others)
 
-WasapFlow Bridge costs $10 USD/month per slot of up to 3 WhatsApp Business Accounts
-(WABAs). The partner account is free, and the first number is free for 3 days with
-no card needed. Meta bills its own message charges directly to each WABA. There is
-no SDK; this repo plus the docs is the integration.
+WasapFlow Bridge costs $10 USD/month per slot of 3 connected WhatsApp numbers.
+The partner account is free, a card is saved first, and nothing is charged until
+the first number connects. Meta bills its own message charges directly to each
+WABA. There is no SDK; this repo plus the docs is the integration.
 
 WasapFlow Bridge is only a bridge: Meta -> WasapFlow -> this app's webhook, and this
 app -> Bridge API -> Meta. WasapFlow has no inbox; this app is the inbox. Numbers
