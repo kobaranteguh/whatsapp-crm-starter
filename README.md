@@ -22,9 +22,11 @@ It's about 400 lines of Node.js across four files, with two dependencies and no 
 
 ## Run it in 5 minutes
 
-1. **Partner account.** Create a free account at https://partner.wasapflow.com/bridge/partner/register
-   and save a card. Nothing is charged until the first number connects. After that, Bridge costs
-   **$10/month for every 3 WhatsApp numbers**, and Meta bills message charges directly.
+1. **Partner account.** Create a free account at https://partner.wasapflow.com/bridge/partner/register.
+   Your first number is free for 3 days, no card needed. After that, Bridge costs
+   **$10 USD/month per slot of up to 3 WhatsApp Business Accounts (WABAs)**, and Meta bills message
+   charges directly. WasapFlow Bridge is only the bridge to Meta: this app is your inbox, and numbers
+   are connected from its own **Connect WhatsApp** button (the WasapFlow portal has no connect button).
 2. **Install:**
    ```bash
    git clone https://github.com/kobaranteguh/whatsapp-crm-starter.git
@@ -89,9 +91,9 @@ claude mcp add --transport http wasapflow https://officialapi.wasapflow.com/brid
 
 ## FAQ
 
-**Do I need a Meta Business verification or app review?** You don't need app review or
-Tech Provider status. Bridge provides both. Each business connects its own number through
-Meta's Embedded Signup and must follow WhatsApp's policies.
+**Do I need a Meta Business verification or app review?** You don't need Meta App Review or
+Tech Provider status; Bridge provides both. Each business connects its own number through
+Meta's Embedded Signup from your app's Connect WhatsApp button and must follow WhatsApp's policies.
 
 **Can a business keep using WhatsApp on their phone?** Yes. With Coexistence, replies typed on
 the phone show up in this inbox as `message.echo`.
